@@ -1,0 +1,82 @@
+
+        body {
+            font-family: 'Merriweather', serif;
+            color: #333;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #61728c;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+        }
+        header .logo-text {
+            font-size: 32px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+        header .logo-text span {
+            color: #f1c40f; /* Accent color for the logo */
+        }
+        header img {
+            height: 50px; /* Adjust the size of the logo image */
+            width: auto;
+        }
+        header h1 {
+            font-size: 28px;
+        }
+        
+        .content {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        h1, h2, h3 {
+            color: #61728c;
+        }
+        
+        h1 {
+            font-size: 36px;
+        }
+        
+        h2 {
+            font-size: 28px;
+        }
+        
+        h3 {
+            font-size: 24px;
+        }
+        
+        .tip {
+            margin-bottom: 20px;
+        }
+        
+        .footer {
+            background-color: #61728c;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .footer a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .footer p {
+            margin: 5px 0;
+        }
+        
+        .footer .contact-info {
+            font-size: 16px;
+        }
+  
